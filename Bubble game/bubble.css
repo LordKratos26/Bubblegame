@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#main{
+/* margin-top: 10px; */
+padding-left: 10px;
+padding-right: 10px;
+
+width: 100%;
+height: 660px;
+border: 1px solid black;
+background-image: url("backimg.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+#main p{
+    font-size: 2em;
+    display: inline-block;
+    color: red;
+}
+#main #gameover{
+    position: absolute;
+    top:40%;
+    left:40%;
+    font-size: 4em;
+    display: none;
+}
+
+.bubble{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-image: url("bubbleimg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+#number{
+    float: right;
+    margin-bottom: 60px;
+    font-size: 40px;
+    color: red;
+}
+#btn{
+    width: 200px;
+    height: 80px;
+    border-radius: 5%;
+    font-size: 30px;
+    background-color: chartreuse;
+    outline: none;
+}
